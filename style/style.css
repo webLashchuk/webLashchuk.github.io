@@ -512,3 +512,12 @@ footer {
         -ms-grid-column: 1;
     }
 }
+@media all and (-ms-hight-contrast:none) {
+    .d-grid {
+        display: block;
+        margin: 0 auto;
+    }
+    .nutrition-type-item {
+        max-width: 320px;
+    }
+}
