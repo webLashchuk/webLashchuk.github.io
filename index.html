@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website on Grid & Flex</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="grid-container d-grid">
+        <header>
+            <div class="container d-flex">
+                <div class="logo-block">
+                    <svg width="102" height="19" viewBox="0 0 102 19" fill="none" xmls="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0.269531 4.84717V1.76514H14.4961V4.84717H9.02344V18.5698H5.73047V4.84717H0.269531ZM15.578 18.5698V1.05029H18.6834V7.67139C19.3631 6.64795 20.3944 6.13623 21.7772 6.13623C23.0506 6.13623 24.0233 6.54248 24.6952 7.35498C25.3748 8.15967 25.7147 9.26514 25.7147 10.6714V18.5698H22.5623V11.3511C22.5623 10.6401 22.4139 10.0972 22.117 9.72217C21.828 9.34717 21.4022 9.15967 20.8397 9.15967C20.2069 9.15967 19.6873 9.41357 19.2811 9.92139C18.8827 10.4292 18.6834 11.1675 18.6834 12.1362V18.5698H15.578ZM28.027 18.5698V6.40576H30.7223L31.0036 8.35107C31.2302 7.74951 31.6364 7.25342 32.2223 6.86279C32.8161 6.47217 33.5934 6.27686 34.5544 6.27686V9.40576C33.5622 9.40576 32.7575 9.64404 32.1403 10.1206C31.5309 10.605 31.2028 11.3589 31.1559 12.3823V18.5698H28.027ZM35.6948 2.83154C35.6948 2.31592 35.8784 1.87842 36.2456 1.51904C36.6128 1.15967 37.0581 0.97998 37.5816 0.97998C38.0972 0.97998 38.5425 1.15967 38.9175 1.51904C39.2925 1.87842 39.48 2.31592 39.48 2.83154C39.48 3.35498 39.2925 3.79248 38.9175 4.14404C38.5503 4.49561 38.105 4.67139 37.5816 4.67139C37.0503 4.67139 36.6011 4.49561 36.2339 4.14404C35.8745 3.79248 35.6948 3.35498 35.6948 2.83154ZM36.023 18.5698V6.40576H39.1519V18.5698H36.023ZM40.1869 6.40576H43.5502L45.9291 13.8706L46.1634 14.9253L46.4095 13.8706L48.7884 6.40576H52.1634L47.7572 18.5698H44.5814L40.1869 6.40576ZM52.0734 12.4995C52.0734 10.6479 52.632 9.12451 53.7492 7.9292C54.8664 6.73389 56.3234 6.13623 58.1203 6.13623C58.9328 6.13623 59.6789 6.26514 60.3586 6.52295C61.0383 6.78076 61.632 7.16748 62.1398 7.68311C62.6477 8.19092 63.0422 8.85498 63.3234 9.67529C63.6125 10.4878 63.757 11.4214 63.757 12.4761V13.437H55.2844C55.3312 14.2495 55.6203 14.9097 56.1516 15.4175C56.6828 15.9175 57.3703 16.1675 58.2141 16.1675C58.8156 16.1675 59.3312 16.0464 59.7609 15.8042C60.1906 15.5542 60.4914 15.2026 60.6633 14.7495H63.6867C63.3117 16.0542 62.6516 17.062 61.7062 17.7729C60.7687 18.4839 59.5734 18.8394 58.1203 18.8394C56.3156 18.8394 54.8547 18.2612 53.7375 17.105C52.6281 15.9487 52.0734 14.4136 52.0734 12.4995ZM55.3078 11.269H60.6164C60.6008 10.5034 60.3586 9.89014 59.8898 9.4292C59.4289 8.96045 58.8156 8.72607 58.05 8.72607C57.2844 8.72607 56.6516 8.96045 56.1516 9.4292C55.6594 9.89795 55.3781 10.5112 55.3078 11.269ZM64.2061 9.22998V6.40576H66.1983L66.2217 3.45264H69.3623L69.3389 6.40576H72.128V9.22998H69.3155L69.2686 14.1519C69.2686 14.7847 69.3858 15.2378 69.6202 15.5112C69.8545 15.7769 70.2647 15.9097 70.8506 15.9097C71.2803 15.9097 71.7061 15.8511 72.128 15.7339V18.4761C71.6592 18.6479 71.003 18.7339 70.1592 18.7339C68.792 18.7339 67.7803 18.4331 67.1241 17.8315C66.4678 17.23 66.1436 16.2534 66.1514 14.9019L66.1983 9.22998H64.2061ZM73.0575 15.3354C73.0575 14.7573 73.1473 14.2534 73.327 13.8237C73.5145 13.3862 73.7841 13.0269 74.1356 12.7456C74.4872 12.4644 74.8778 12.2417 75.3075 12.0776C75.745 11.9058 76.2489 11.7729 76.8192 11.6792L79.9716 11.105V10.6479C79.9716 10.0542 79.8231 9.59717 79.5262 9.27686C79.2372 8.95654 78.8153 8.79639 78.2606 8.79639C77.7372 8.79639 77.3036 8.94482 76.9598 9.2417C76.6161 9.53857 76.4442 9.9292 76.4442 10.4136H73.4208C73.4911 9.14795 73.9598 8.12061 74.827 7.33154C75.702 6.53467 76.8466 6.13623 78.2606 6.13623C79.745 6.13623 80.9208 6.51514 81.788 7.27295C82.6552 8.02295 83.0887 9.12451 83.0887 10.5776V18.5698H80.4286L80.2294 17.0815C79.4637 18.2534 78.3036 18.8394 76.7489 18.8394C75.6552 18.8394 74.7645 18.5229 74.077 17.8901C73.3973 17.2573 73.0575 16.4058 73.0575 15.3354ZM76.1747 15.0659C76.1747 15.4331 76.2997 15.7261 76.5497 15.9448C76.7997 16.1558 77.1473 16.2612 77.5927 16.2612C77.9833 16.2612 78.3505 16.1675 78.6942 15.98C79.0458 15.7847 79.327 15.5112 79.538 15.1597C79.827 14.7222 79.9716 14.187 79.9716 13.5542V13.1909L77.5458 13.6948C77.1005 13.7964 76.7606 13.9526 76.5262 14.1636C76.2919 14.3745 76.1747 14.6753 76.1747 15.0659ZM85.3073 18.5698V1.05029H88.4362V18.5698H85.3073ZM90.9595 18.5698V1.05029H94.0884V11.3276L97.6392 6.40576H101.354L97.7798 11.5151L101.975 18.5698H98.4244L95.6002 13.9175L94.0884 15.8394V18.5698H90.9595Z"
+                            fill="#62D0DF"></path>
+                    </svg>
+                </div>
+                <div class="navigation-block d-flex">
+                    <ul>
+                        <li>
+                            <a class="active" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="contact-button">CONTACT US</button>
+            </div>
+        </header>
+        <section class="info-block d-flex">
+            <div class="info-text d-flex">
+                <h3>Why Thrive?</h3>
+                <p><strong>
+                        Want to improve your well-being from the comfort of your own couch? Are you having trouble
+                        finding the right therapist?
+                    </strong>
+                    Here at ThriveTalk, our licensed therapists provide the same quality care you would get in office
+                    from anywhere you can access your laptop or mobile phone. Become your best self with ThriveTalk.
+                    Start therapy now with a licensed therapist!
+                </p>
+            </div>
+            <figure>
+                <img src="img/christopher-campbell-40367.png" alt="girl">
+            </figure>
+        </section>
+        <section class="about-block">
+            <h3>ABOUT US</h3>
+            <p>We want to help you thrive! Whether you are just looking for someone to talk to, or are struggling with a
+                mental wellness issue we’re here to help. Our highly talented therapists can help you with a range of
+                issues including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself
+                more. </p>
+            <a class="help-link" href="#">WE CAN HELP YOU WITH</a>
+        </section>
+        <section class="category-block d-grid">
+            <div class="category-item pink">
+                <h4>Weight Lifting</h4>
+            </div>
+            <div class="category-item light-yellow">
+                <h4>Running & Spinning</h4>
+            </div>
+            <div class="category-item light-blue">
+                <h4>Pumping Iron</h4>
+            </div>
+            <div class="category-item blue">
+                <h4>Pumping Iron</h4>
+            </div>
+        </section>
+        <section class="nutrition-type-block d-grid">
+            <div class="nutrition-type-item">
+                <h3>Physical Health</h3>
+                <img src="img/Rectangle 2.png" alt="">
+            </div>
+            <div class="nutrition-type-item">
+                <h3>Physical Health</h3>
+                <img src="img/Rectangle 2 (1).png" alt="">
+            </div>
+            <div class="nutrition-type-item">
+                <h3>Physical Health</h3>
+                <img src="img/Rectangle 2 (3).png" alt="">
+            </div>
+            <div class="nutrition-type-item">
+                <h3>Physical Health</h3>
+                <img src="img/Rectangle 2 (5).png" alt="">
+            </div>
+            <div class="nutrition-type-item">
+                <h3>Physical Health</h3>
+                <img src="img/Rectangle 2 (4).png" alt="">
+            </div>
+            <div class="nutrition-type-item">
+                <h3>Physical Health</h3>
+                <img src="img/Rectangle 2.png" alt="">
+            </div>
+        </section>
+        <section class="information-text-block container d-grid">
+            <div class="information-text-item">
+                <h4>Nutritional Plans</h4>
+                <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to
+                    replace this copy. </p>
+            </div>
+            <div class="information-text-item">
+                <h4>Nutritional Plans</h4>
+                <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to
+                    replace this copy. </p>
+            </div>
+            <div class="information-text-item">
+                <h4>Nutritional Plans</h4>
+                <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to
+                    replace this copy. </p>
+            </div>
+            <div class="information-text-item">
+                <h4>Nutritional Plans</h4>
+                <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to
+                    replace this copy. </p>
+            </div>
+            <div class="information-text-item">
+                <h4>Nutritional Plans</h4>
+                <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to
+                    replace this copy. </p>
+            </div>
+            <div class="information-text-item">
+                <h4>Nutritional Plans</h4>
+                <p>Nutritional Facts on some shitty things that you don’t care about and even we don’t , I need to
+                    replace this copy. </p>
+            </div>
+        </section>
+        <section class="contact-us d-flex">
+            <div class="help-info-block d-flex">
+                <p>CONTACT US</p>
+                <div class="text-block-help-info">
+                    <h3>Ready. Set. Smile</h3>
+                    <p>Take the free online assessment to see if you are a candidate and get started on your journey.
+                    </p>
+                    <a href="#">GET HELP NOW</a>
+                </div>
+            </div>
+            <figure>
+                <img src="img/charles-etoroma-390119.png" alt="">
+            </figure>
+        </section>
+        <section class="footer-info d-flex">
+            <figure>
+                <img src="img/autumn-goodman-242825.png" alt="">
+            </figure>
+            <div class="footer-info-list d-flex">
+                <div>
+                    <h4>SOME INFO</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, similique cumque.</p>
+                </div>
+                <div>
+                    <h4>ENFOLD HEALTH!</h4>
+                    <p>Main Street 1, Olcott Buffalo, United States</p>
+                    <p>+555 283 784 333</p>
+                    <a href="#">office@enfold-health.comm </a>
+                </div>
+                <div>
+                    <h4>ENFOLD HEALTH !</h4>
+                    <p> Mo-Fr: 8:00-19:00</p>
+                    <p> Sa: 8:00-14:00</p>
+                    <p>Su: closed</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container"><p>Copyright - ThriveTalk 2017</p></div>
+        </footer>
+    </div>
+</body>
+
+</html>
